@@ -1,0 +1,317 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+header{
+    width:100%;
+    height:50%;
+    overflow:hidden;
+}
+header figure img{
+    float:left;
+    width:20%;
+    height:50%;
+}
+header figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation:30s slider infinite alternate-reverse;
+}
+@keyframes slider{
+    0%{left:0%;}
+    20%{left:-100%;}
+    25%{left:-100%;}
+    45%{left:-200%;}
+    50%{left:-200%;}
+    70%{left:-300%;}
+    75%{left:-300%;}
+    95%{left:-400%;}
+    100%{left:-400%;}
+}
+nav{
+    height:100px;
+    background-color:black;
+    text-align:center;
+    line-height:100px;
+    position:sticky;
+    top:0;
+    z-index:2;
+}
+nav li{
+    display: inline;  
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:30px;
+    font-size:1.5em;
+    font-weight:bold;
+}
+.sekcja1, .sekcja2, .sekcja3{
+    background-color:lightgrey;
+}
+.sekcja1 h2, .sekcja2 h2, .sekcja3 h2{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+    padding-bottom:20px;
+    font-size:3em;
+    font-family: 'Oleo Script Swash Caps',;
+}
+.sekcja1 p, .sekcja2 p, .sekcja3 p{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom:50px;
+    font-size:1.5em;
+    font-family: 'Lato', sans-serif;
+}
+.sekcja2>.galeria{
+    text-align: center;
+}
+.sekcja3>.efekty{
+    text-align: center;
+}
+.galeriaein{
+    max-width: 400px;
+    border:5px solid black;
+}
+.galeriadwa{
+    max-width: 500px;
+    border:5px solid black;
+}
+.galeriatri{
+    max-width: 370px;
+    border:5px solid black;
+}
+footer{
+    height:100px;
+    background-color:black;
+}
+.middle{
+    text-align: center;
+}
+.middle img{
+    width: 50px;
+    padding-top: 25px;
+    margin: 5px;
+}
+.middle img:hover{
+    transform:scale(0.9);
+}
+.icons{
+    text-align:center;
+}
+.icons img{
+    width:50px;
+    padding-top:25px;
+}
+#parallax1{
+    height:40vh;
+    width:100%;
+    background-image:url("../img/Bahrain-F1-circuit.jpg");background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#parallax2{
+    height:60vh;
+    width:100%;
+    background-image:url("../img/max-verstappen-121221-getty-ftrjpg_1ki84xix6r9wx160s63c0rlu8c.jpg");background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#parallax3{
+    height:80vh;
+    width:100%;
+    background-image:url("../img/GettyImages-56632709.jpg");background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+.obraz1{
+    transition: 1s ease;
+    width: 500px;
+    border:5px solid black;
+}
+.obraz1:hover{
+    transform:scale(0.9);
+}
+.obraz2{
+    border:5px solid black;
+    transition: 1s ease;
+    width: 500px;
+}
+.obraz2:hover{
+    transform:scale(0.9);
+}
+.obraz3{
+    transition: 1s ease;
+    width: 500px;
+    border:5px solid black;
+}
+.obraz3:hover{
+    transform:scale(0.9);
+}
+@media screen and (max-width: 600px){
+    *{
+        margin:0;
+        padding:0;
+        scroll-behavior: smooth;
+    }
+    header{
+        width:100%;
+        height:50%;
+        overflow:hidden;
+    }
+    header figure img{
+        float:left;
+        width:20%;
+        height:50%;
+    }
+    header figure{
+        position:relative;
+        width:500%;
+        margin:0;
+        left:0;
+        animation:30s slider infinite alternate-reverse;
+    }
+    @keyframes slider{
+        0%{left:0%;}
+        20%{left:-100%;}
+        25%{left:-100%;}
+        45%{left:-200%;}
+        50%{left:-200%;}
+        70%{left:-300%;}
+        75%{left:-300%;}
+        95%{left:-400%;}
+        100%{left:-400%;}
+    }
+    nav{
+        height:100px;
+        background-color:black;
+        text-align:center;
+        line-height:100px;
+        position:sticky;
+        top:0;
+        z-index:2;
+    }
+    nav li{
+        display: inline;  
+    }
+    nav a{
+        color:white;
+        text-decoration:none;
+        padding:30px;
+        font-size:1.5em;
+        font-weight:bold;
+    }
+    .sekcja1, .sekcja2, .sekcja3{
+        background-color:lightgrey;
+    }
+    .sekcja1 h2, .sekcja2 h2, .sekcja3 h2{
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:100px;
+        padding-bottom:20px;
+        font-size:3em;
+        font-family: 'Oleo Script Swash Caps',;
+    }
+    .sekcja1 p, .sekcja2 p, .sekcja3 p{
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:20px;
+        padding-bottom:50px;
+        font-size:1.5em;
+        font-family: 'Lato', sans-serif;
+    }
+    .sekcja2>.galeria{
+        text-align: center;
+    }
+    .sekcja3>.efekty{
+        text-align: center;
+    }
+    .galeriaein{
+        max-width: 200px;
+        border:5px solid black;
+    }
+    .galeriadwa{
+        max-width: 250px;
+        border:5px solid black;
+    }
+    .galeriatri{
+        max-width: 170px;
+        border:5px solid black;
+    }
+    footer{
+        height:100px;
+        background-color:black;
+    }
+    .middle{
+        text-align: center;
+    }
+    .middle img{
+        width: 50px;
+        padding-top: 25px;
+        margin: 5px;
+    }
+    .middle img:hover{
+        transform:scale(0.9);
+    }
+    .icons{
+        text-align:center;
+    }
+    .icons img{
+        width:50px;
+        padding-top:25px;
+    }
+    #parallax1{
+        height:40vh;
+        width:100%;
+        background-image:url("../img/Bahrain-F1-circuit.jpg");background-size:cover;
+        display:table;
+        background-attachment:fixed;
+    }
+    #parallax2{
+        height:60vh;
+        width:100%;
+        background-image:url("../img/max-verstappen-121221-getty-ftrjpg_1ki84xix6r9wx160s63c0rlu8c.jpg");background-size:cover;
+        display:table;
+        background-attachment:fixed;
+    }
+    #parallax3{
+        height:80vh;
+        width:100%;
+        background-image:url("../img/GettyImages-56632709.jpg");background-size:cover;
+        display:table;
+        background-attachment:fixed;
+    }
+    .obraz1{
+        transition: 1s ease;
+        width: 200px;
+        border:5px solid black;
+    }
+    .obraz1:hover{
+        transform:scale(0.9);
+    }
+    .obraz2{
+        border:5px solid black;
+        transition: 1s ease;
+        width: 200px;
+    }
+    .obraz2:hover{
+        transform:scale(0.9);
+    }
+    .obraz3{
+        transition: 1s ease;
+        width: 200px;
+        border:5px solid black;
+    }
+    .obraz3:hover{
+        transform:scale(0.9);
+    }
+
+}
+   
+   
